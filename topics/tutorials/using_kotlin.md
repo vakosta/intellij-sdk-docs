@@ -145,11 +145,16 @@ See [Dependency on the standard library](https://kotlinlang.org/docs/gradle.html
 {title="Adding stdlib in tests"}
 
 ### Kotlin Coroutines Libraries (kotlinx.coroutines)
+{id="coroutinesLibraries"}
 
 Plugins _must_ always use the bundled library from the target IDE and not bundle their own version.
 Please make sure it is not added via transitive dependencies either.
 
 See [](kotlin-coroutines.md) on how to use them in plugins.
+
+| IntelliJ Platform version | Bundled _kotlinx-coroutines_ version |
+|---------------------------|--------------------------------------|
+| 2024.1                    | 1.7.3                                |
 
 ### Other Bundled Kotlin Libraries
 
